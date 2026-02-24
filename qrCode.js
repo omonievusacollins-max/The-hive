@@ -1,5 +1,5 @@
 // 🔥 Change this anytime
-const websiteURL = "https://5sfwq576-5500.uks1.devtunnels.ms/";
+const websiteURL = "https://the-hive-drab.vercel.app/";
 
 // Display link text
 document.getElementById("linkText").textContent = websiteURL;
