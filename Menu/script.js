@@ -1,9 +1,24 @@
 fetch('menu.json')
 .then(response => response.json())
-.then(data => {
-    for(category in data){
-        data[category].forEach(element=>{
-            console.log(element)
-        })
-    }
+.then(menu => {
+
+    const grid = document.querySelector('.grid');
+
+    Object.entries(menu).forEach(([category, items]) =>{
+        let card = `
+        <div class="card">
+          <h3>${category}</h3>
+          <ul>
+            ${items.map(item => `
+              <li>
+                <span>${item.name}</span>
+                <span>₦${item.price.toLocaleString()}</span>
+              </li>
+            `).join("")}
+          </ul>
+        </div>
+        
+        `
+        grid.innerHTML += card;
+    })
 })

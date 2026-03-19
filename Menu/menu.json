@@ -1,4 +1,11 @@
 {
+    "burger": [
+        {"name" :"regular-beef", "price": 3800},
+        {"name" :"cheese", "price": 4000},
+        {"name" :"double-decker(no cheese)", "price": 4000},
+        {"name" :"double-decker(cheese)", "price": 4500}    
+        ]
+    ,
     "sharwarma": [
         {"name" :"regular-beef", "price": 3800},
         {"name" :"chicken", "price": 4000},
@@ -6,13 +13,6 @@
         {"name" :"hive-jumbo", "price": 5500},
         {"name" :"hive-combo", "price": 4500}
     ],
-    "burger": [
-         {"name" :"regular-beef", "price": 3800},
-        {"name" :"cheese", "price": 4000},
-        {"name" :"double-decker(no cheese)", "price": 4000},
-        {"name" :"double-decker(cheese)", "price": 4500}    
-        ]
-    ,
     "Pasta":[
          {"name" :"Pasta and beef", "price": 2500},
         {"name" :"Pasta and chicken", "price": 5000},
