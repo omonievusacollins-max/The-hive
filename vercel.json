@@ -1,3 +1,16 @@
 {
-  "outputDirectory": "Order"
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Order/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "buildCommand": "",
+  "outputDirectory": "."
 }
