@@ -1,5 +1,5 @@
 // 🔥 Change this anytime
-const websiteURL = "https://the-hive-drab.vercel.app/";
+const websiteURL = "https://the-hive-eqcswafxw-collins-omonievusas-projects.vercel.app/Menu/index.html";
 
 // Display link text
 document.getElementById("linkText").textContent = websiteURL;
