@@ -18,3 +18,15 @@ getMenu().then(menu => {
         grid.innerHTML += card;
     })
 });
+
+function order() {
+  const orderButton = document.getElementById('orderBtn');
+  orderButton.addEventListener('click', function () {
+    const url = "https://wa.link/qr0d6l"; // Generated with tool wa.link
+    alert(url)
+    window.location.href = url; // Generated with tool wa.link
+  });
+  
+}
+
+order();
